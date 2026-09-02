@@ -21,9 +21,13 @@ The UART interface is exposed through a 5-pin header:
 
 Pin| Function
 1| RX
+
 2| TX
+
 3| 3V3
+
 4| 5V
+
 5| GND
 
 USB-C Interface
@@ -45,9 +49,13 @@ Status LEDs
 Three LEDs are included on the board:
 
 LED  | Color | Function
+
 Power| Green | Power indication
+
 RX   | Red   | UART receive activity
+
 TX   | Yellow| UART transmit activity
+
 
 These indicators provide visual feedback for power and UART communication.
 
@@ -73,10 +81,15 @@ Particular attention was given to keeping the USB interface compact and placing 
 Repository Structure
 
 usbc-uart/
+
 ├── README.md
+
 ├── documentation/
+
 ├── hardware/
+
 ├── images/
+
 └── manufacturing/
 
 The repository contains the KiCad hardware design files, documentation, images, and manufacturing-related files.
